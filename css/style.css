@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0.5em auto;
+}
+
+a {
+    color: black;
+}
+
+.row-center {
+    text-align: center;
+}
+
+.spacer {
+    display: inline-block;
+    width: 1.5em;
+}
+
+.btn {
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: white;
+    text-align: right;
+}
+
+footer p {
+    display: block;
+    margin: 0.5em 0.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: black;
+        color: white;
+    }
+
+    a {
+        color: white;
+    }
+
+    .btn {
+        color: white;
+        border: 1px solid white;
+    }
+
+    footer {
+        background: black;
+    }
+}
+
