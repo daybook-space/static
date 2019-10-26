@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "daybook",
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
   "hinting": true,
@@ -41,6 +41,12 @@
       "css": "cancel",
       "code": 59392,
       "src": "mfglabs"
+    },
+    {
+      "uid": "f4445feb55521283572ee88bc304f928",
+      "css": "save",
+      "code": 59393,
+      "src": "fontawesome"
     }
   ]
 }
