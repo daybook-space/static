@@ -22,6 +22,10 @@ a {
     text-align: center;
 }
 
+.row-right {
+    text-align: right;
+}
+
 .spacer {
     display: inline-block;
     width: 1.5em;
@@ -34,6 +38,7 @@ a {
     color: black;
     border: 1px solid black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 footer {
